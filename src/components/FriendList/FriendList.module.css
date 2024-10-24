@@ -1,0 +1,15 @@
+.list_return {
+    display:flex;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+}
+
+.container {
+    max-width: 768px;
+    padding: 0 20px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+
+}

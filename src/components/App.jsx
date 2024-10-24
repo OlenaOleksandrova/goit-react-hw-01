@@ -37,8 +37,9 @@
 import Profile from "./Profile/Profile";
 import userData from "../userData.json";
 import FriendList from "./FriendList/FriendList";
-import friends from "../friends.json"
-
+import friends from "../friends.json";
+import "../index.css";
+import "modern-normalize";
 
 
 const App = () => {

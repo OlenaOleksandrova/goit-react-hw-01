@@ -1,0 +1,29 @@
+.list_friends {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: center;
+    text-align: center;
+}
+.image_two {
+    margin: 0 auto;
+}
+.name {
+    font-size: 20px;
+   
+}
+
+.friend-status {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* для онлайн статусу */
+.status-online {
+    color: green;
+}
+
+/*  для офлайн статусу */
+.status-offline {
+    color: red;
+}

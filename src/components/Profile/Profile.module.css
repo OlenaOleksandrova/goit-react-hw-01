@@ -1,0 +1,44 @@
+.container {
+    max-width: 768px;
+    padding: 0 20px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.name {
+    font-size: 20px;
+    font-weight: 800;
+   margin-bottom: 10px;
+}
+
+.list_first{
+    /* display: flex;
+   flex-direction: column ;
+    gap: 20px; */
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.list_status {
+    display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+   
+     }
+.number {
+    font-weight: 700;
+}
