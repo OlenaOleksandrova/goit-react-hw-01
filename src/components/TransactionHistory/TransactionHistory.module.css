@@ -1,0 +1,61 @@
+.transaction_history {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+    
+.transaction_history th,
+.transaction_history td {
+    border: 1px solid #dddddd;
+    /* Колір та товщина ліній */
+    padding: 10px;
+    text-align: left;
+}
+
+.tbody tr:nth-child(even) {
+    background-color: rgb(191, 183, 183);
+    
+}
+
+.tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 768px;
+    padding: 0 20px;
+    margin: 0 auto;
+    
+
+}
+
+.tr_list {
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0;
+       
+}
+
+.tr_title {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 70px;
+    background-color: black;
+    color: #ffffff;
+    
+}
+
+.tbody{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+

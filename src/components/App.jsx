@@ -40,9 +40,8 @@ import FriendList from "./FriendList/FriendList";
 import friends from "../friends.json";
 import "../index.css";
 import "modern-normalize";
-import transactions from "../transactions.json";
-import TransactionHistory from "./TransactionHistory";
-
+import TransactionHistory from "./TransactionHistory/TransactionHistory";
+import transactions from "../transactions.json"
 
 
 const App = () => {
