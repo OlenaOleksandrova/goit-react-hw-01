@@ -7,7 +7,7 @@
     
 .transaction_history th,
 .transaction_history td {
-    border: 1px solid #dddddd;
+    /* border: 1px solid #dddddd; */
     /* Колір та товщина ліній */
     padding: 10px;
     text-align: left;
@@ -32,30 +32,50 @@
 
 .tr_list {
     display: flex;
-    gap: 90px;
+    /* gap: 90px; */
     justify-content: center;
     text-align: center;
     margin-bottom: 0;
        
 }
 
-.tr_title {
+.td {
+    border-right: 2px solid #141414;
+    width: 100%;
     display: flex;
     text-align: center;
     justify-content: center;
-    gap: 70px;
-    background-color: black;
+}
+
+.tr_title {
+    
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(69, 65, 65);
     color: #ffffff;
+    border-right: 1px solid #141414;
     
 }
 
 .tbody{
     display: flex;
-    gap: 20px;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    
+}
+
+.tr_list {
+    border: 1px solid #141414;
     
 }
+.th {
+    border-right: 2px solid #2f2d2d;
+    width: 100%;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
 

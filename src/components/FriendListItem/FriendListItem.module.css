@@ -4,6 +4,10 @@
     row-gap: 10px;
     justify-content: center;
     text-align: center;
+    border: 2px solid #141414;
+    border-radius: 20px;
+    padding: 10px;
+    
 }
 .image_two {
     margin: 0 auto;
@@ -27,3 +31,10 @@
 .status-offline {
     color: red;
 }
+
+.list-status {
+    width: 100%;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
