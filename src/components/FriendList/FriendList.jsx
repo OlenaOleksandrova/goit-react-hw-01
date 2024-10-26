@@ -8,7 +8,7 @@ const FriendList = ({ friends }) => {
   for (let i = 0; i < friends.length; i++) {
     const friend = friends[i];
     friendItems.push(
-      <li>
+      <li key={friend.id}>
         <FriendListItem
           avatar={friend.avatar}
           name={friend.name}
