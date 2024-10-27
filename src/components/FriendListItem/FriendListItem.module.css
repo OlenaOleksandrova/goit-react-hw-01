@@ -23,12 +23,12 @@
 }
 
 /* для онлайн статусу */
-.status-online {
+.statusOnline {
     color: green;
 }
 
 /*  для офлайн статусу */
-.status-offline {
+.statusOffline {
     color: red;
 }
 
